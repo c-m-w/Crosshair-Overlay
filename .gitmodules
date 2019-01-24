@@ -1,0 +1,6 @@
+[submodule "Solution/Crosshair/imgui"]
+	path = Solution/Crosshair/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "Solution/Crosshair/json"]
+	path = Solution/Crosshair/json
+	url = https://github.com/nlohmann/json.git
