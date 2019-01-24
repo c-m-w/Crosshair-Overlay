@@ -2,35 +2,35 @@
 Simplistic, versatile tool to visualize the center of your screen.
 Drawing is done on a window which is overlayed above all others. No interaction with any other processes is done.
 
-##Screenshots
+## Screenshots
 
-###Default Style
+### Default Style
 ![Screenshot](Screenshots/Default.png)
 
-###Default Outlined Style
+### Default Outlined Style
 ![Screenshot](Screenshots/Default Outlined.png)
 
-###Polygon Style
+### Polygon Style
 ![Screenshot](Screenshots/Polygon.png)
 
-###Polygon Outlined Style
+### Polygon Outlined Style
 ![Screenshot](Screenshots/Polygon Outlined.png)
 
-###Image Style
+### Image Style
 ![Screenshot](Screenshots/Image.png)
 
-##Features
+## Features
 * Loading / saving configuration
 * Logging system
 * Drawing shapes / images to screen
 
-##Customizability
+## Customizability
 
-###Global
+### Global
 * X / Y offset from screen center
 * Anti-aliasing
 
-###Default Style
+### Default Style
 * Thickness
 * Size
 * Color
@@ -39,7 +39,7 @@ Drawing is done on a window which is overlayed above all others. No interaction 
 * Outline color
 * Rotation
 
-###Polygon Style
+### Polygon Style
 * Thickness
 * Size
 * Color
@@ -49,5 +49,5 @@ Drawing is done on a window which is overlayed above all others. No interaction 
 * Outline color
 * Rotation
 
-###Image Style
+### Image Style
 * Customizable image (from file relative to executable directory)
