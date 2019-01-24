@@ -8,13 +8,13 @@ Drawing is done on a window which is overlayed above all others. No interaction 
 ![Screenshot](Screenshots/Default.png)
 
 ### Default Outlined Style
-![Screenshot](Screenshots/Default Outlined.png)
+![Screenshot](Screenshots/Default-Outlined.png)
 
 ### Polygon Style
 ![Screenshot](Screenshots/Polygon.png)
 
 ### Polygon Outlined Style
-![Screenshot](Screenshots/Polygon Outlined.png)
+![Screenshot](Screenshots/Polygon-Outlined.png)
 
 ### Image Style
 ![Screenshot](Screenshots/Image.png)
