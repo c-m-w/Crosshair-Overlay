@@ -47,26 +47,34 @@ namespace Main
 	/** \return Whether or not initialization was successful. */
 	__declspec( naked ) bool __stdcall InitializeObject( IBaseInterface* pObject, const char* szSuccessMessage, const char* szErrorMessage )
 	{
-		DWORD dwReturnAddress; 
+		DWORD dwReturnAddress;
 		__asm
 		{
 			pop		dwReturnAddress
 			pop		pObject
-			pop		szSuccessMessage
-			pop		szErrorMessage
 
 			mov		ecx, pObject
+			push	pObject
+			push	dwReturnAddress
+
 			push	ecx
 			mov		ecx, [ ecx ]
 			add		ecx, 4
 			mov		ecx, [ ecx ]
 			call	ecx
 
+			pop		dwReturnAddress
+			pop		pObject
+			pop		szSuccessMessage
+			pop		szErrorMessage
+
 			cmp		eax, 0
 			jnz		LogSuccessful
 			jmp		Shutdown
 
 			LogSuccessful:
+				
+				push	dwReturnAddress
 				push	szSuccessMessage
 				push	LOCATION_MAIN
 				push	PREFIX_SUCCESS
@@ -76,7 +84,6 @@ namespace Main
 				pop		ecx
 				pop		ecx
 				pop		ecx
-				push	dwReturnAddress
 				ret
 
 			Shutdown:

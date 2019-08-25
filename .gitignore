@@ -40,3 +40,14 @@ Solution/Crosshair/Release/*
 
 # imgui configuration
 imgui.ini
+*.vcxproj
+Solution/Crosshair/x64/Debug/Crosshair.log
+Solution/Crosshair/x64/Debug/Crosshair.tlog/CL.command.1.tlog
+Solution/Crosshair/x64/Debug/Crosshair.tlog/CL.read.1.tlog
+Solution/Crosshair/x64/Debug/Crosshair.tlog/CL.write.1.tlog
+Solution/Crosshair/x64/Debug/Crosshair.tlog/Crosshair.lastbuildstate
+Solution/Crosshair/x64/Debug/Crosshair.tlog/unsuccessfulbuild
+Solution/Crosshair/x64/Debug/vc142.idb
+Solution/Crosshair/x64/Debug/vc142.pdb
+Solution/Crosshair/Crosshair.vcxproj
+Solution/Crosshair/Crosshair.vcxproj
